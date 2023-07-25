@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CyberLearn Dressing Room</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="text-center">
+            <img src="./../assets/images/cybersoft.png" alt="Card image" />
+          </div>
+
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+              - Virtual Dressing Room
+            </h4>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="my-4 text-center" style="font-size: 30px;">Vui lòng chọn mục bên dưới để thay đồ</h1>
+        <ul class="nav nav-pills mb-3 justify-content-around" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" id="pills-topclothes-tab" data-toggle="pill" href="#pills-topclothes" role="tab" aria-controls="pills-topclothes" aria-selected="true">Áo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-botclothes-tab" data-toggle="pill" href="#pills-botclothes" role="tab" aria-controls="pills-botclothes" aria-selected="false">Váy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-shoes-tab" data-toggle="pill" href="#pills-shoes" role="tab" aria-controls="pills-shoes" aria-selected="false">Giày dép</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-handbags-tab" data-toggle="pill" href="#pills-handbags" role="tab" aria-controls="pills-handbags" aria-selected="false">Túi xách</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-necklaces-tab" data-toggle="pill" href="#pills-necklaces" role="tab" aria-controls="pills-necklaces" aria-selected="false">Dây chuyền</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-hairstyle-tab" data-toggle="pill" href="#pills-hairstyle" role="tab" aria-controls="pills-hairstyle" aria-selected="false">Kiểu tóc</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-background-tab" data-toggle="pill" href="#pills-background" role="tab" aria-controls="pills-background" aria-selected="false">Hình nền</a>
+          </li>
+        </ul>
+        
+        <div class="well">
+          <!-- Tab panes -->
+          <div class="tab-content" id="pills-tabContent" style="background-color: #fffbe8;">
+            <div class="tab-pane fade" id="pills-topclothes" role="tabpanel" aria-labelledby="pills-topclothes-tab">
+            </div>
+            <div class="tab-pane fade" id="pills-botclothes" role="tabpanel" aria-labelledby="pills-botclothes-tab">
+            </div>
+            <div class="tab-pane fade" id="pills-shoes" role="tabpanel" aria-labelledby="pills-shoes-tab">
+            </div>
+            <div class="tab-pane fade" id="pills-handbags" role="tabpanel" aria-labelledby="pills-handbags-tab">
+            </div>
+            <div class="tab-pane fade" id="pills-necklaces" role="tabpanel" aria-labelledby="pills-necklaces-tab">
+            </div>
+            <div class="tab-pane fade" id="pills-hairstyle" role="tabpanel" aria-labelledby="pills-hairstyle-tab">
+            </div>
+            <div class="tab-pane fade" id="pills-background" role="tabpanel" aria-labelledby="pills-background-tab">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contain">
+          <div class="body"></div>
+          <div class="model"></div>
+          <div class="hairstyle"></div>
+          <div class="necklace"></div>
+          <div class="bikinibottom"></div>
+          <div class="bikinitop"></div>
+          <div class="handbag"></div>
+          <div class="feet"></div>
+          <div class="background"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="./../controllers/main.js"></script>
+</body>
+
+</html>
